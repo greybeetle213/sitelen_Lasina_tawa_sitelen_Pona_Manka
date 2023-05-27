@@ -1,5 +1,5 @@
 var langfile
-function init(){
+function readfile(){
     var file = document.getElementById("input").files[0];
     if (file) {
         var reader = new FileReader();
